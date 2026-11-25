@@ -6,11 +6,15 @@
 
 One short, funny rant about an everyday annoyance for make.fun's "Angry Judge: The Short Rant Contest": a single text of at most 400 characters, written by the program to `/output/entry.txt`.
 
+Version 2 rants about the office coffee machine — sixteen buttons, not one of them makes coffee. It steams, it froths, it spends twenty minutes descaling itself, then hands over hot brown water like it is doing you a favour.
+
 ## Run it
 
 ```sh
 python3 main.py
 ```
+
+The program writes the rant to `/output/entry.txt` (UTF-8, 202 characters, no trailing newline) and reads it back to verify the written file matches the rant exactly before reporting success.
 
 ---
 
